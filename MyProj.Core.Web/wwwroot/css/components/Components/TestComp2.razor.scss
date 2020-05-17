@@ -1,0 +1,8 @@
+﻿@import '../Core-Sass/ComponentsShared';
+
+.Box {
+    @include FullBorder();
+    font-family: Helv;
+    font-size: 24px;
+    background-color: $cPurple10;
+}

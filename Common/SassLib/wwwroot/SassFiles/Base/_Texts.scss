@@ -1,0 +1,24 @@
+/*@import 'Colors';
+@import 'Fonts';*/
+// no need to import cause all will be merged in SassLib (_SassLib)
+
+@mixin text1 {
+    font-weight: bold;
+    text-align: center;
+    color: $cPurple10;
+    font-family: Helv;
+}
+
+@mixin text2 {
+    font-weight: bold;
+    text-align: center;
+    color: $cOrange1;
+    font-family: Helv;
+}
+
+@mixin box1 {
+    @include bgSth1();
+    color:white;
+    font-family: Helv;
+}
+

@@ -1,0 +1,30 @@
+﻿// Should be able to import
+// SassLib; SassFiles/SassLib (_SassLib)
+// MyProj.Core.Web; Core-Sass/ExtraLib (_ExtraLib)
+
+
+// --------------------
+
+// Final CSS Generation
+
+div {
+    margin: 8px auto;
+}
+
+.nav{}
+
+.TopPart {
+    @include Panel2();
+    @include DownBorder();
+    @include text1();
+}
+
+.BottomPart {
+    @include Panel1();
+    @include FullBorder();
+}
+
+.etc {
+    @include text2();
+    // ...
+}

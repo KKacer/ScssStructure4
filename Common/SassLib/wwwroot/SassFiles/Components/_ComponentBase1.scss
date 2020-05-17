@@ -1,0 +1,31 @@
+/*@import "../Base/Colors";
+@import "../Base/Fonts";*/
+// no need to import cause all will be merged in SassLib (_SassLib)
+
+@mixin Panel1() {
+    position: relative;
+    display: flex;
+    width: 200px;
+    height: 100px;
+    // ...
+    font: 18px arial;
+    // ...
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    background-color: $cPurple10;
+}
+
+@mixin Panel2() {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    // ...
+    font-family: Helv;
+    // ...
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    background-color: $cOrange1;
+}
